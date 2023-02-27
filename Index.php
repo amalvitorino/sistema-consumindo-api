@@ -1,37 +1,6 @@
-<!doctype html>
-<html lang="en">
+<?php include_once 'includs/header.php' ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Consumindo API</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+<!-- List Products -->
+<?php include_once 'includs/php/read.php' ?>
 
-<body>
-    <div class="container">
-        <!-- NavBar -->
-
-        <!-- As a link -->
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#">Sistema de consumo de API</a>
-            </div>
-        </nav>
-
-        <h1 class="mt-5">Lista de todos os produtos</h1>
-        <a class="btn btn-success" href="#">Adicionar</a>
-
-        <!-- List Products -->
-        <?php include_once 'includs/read.php'?>
-        
-
-    </div>
-
-
-    <!-- Adicionando JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-</body>
-
-</html>
+<?php include_once 'includs/footer.php' ?>

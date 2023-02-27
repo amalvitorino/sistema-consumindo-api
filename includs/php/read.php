@@ -12,6 +12,9 @@ $result = json_decode(curl_exec($ch));
 // 
 ?>
 
+<h1 class="mt-5">Lista de todos os produtos</h1>
+<a class="btn btn-success" href="create.php">Adicionar</a>
+
 
 <div class="table-responsive col-10">
     <table class="table table-striped mt-2 table-bordered table-sm table align-middle">
