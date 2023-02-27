@@ -3,7 +3,7 @@
 
 <h1 class="mt-4">Criando Novo Produto</h1>
 <!--Create-->
-<form class="row g-3 needs-validation" action="includs/php/create.php" method="POST" novalidate>
+<form class="row g-3 needs-validation" action="includs/php/create.php" method="POST" enctype="multipart/form-data" novalidate>
     <div class="col-md-4">
         <label for="validationCustom01" class="form-label">Nome</label>
         <input type="text" name="nome" class="form-control" id="validationCustom01" required>
