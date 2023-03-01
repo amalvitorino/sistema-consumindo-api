@@ -41,7 +41,7 @@ $result = json_decode(curl_exec($ch));
                 <td><img src=' . $produto->imagem . '></td>
                 <td>
                 <a href="" class="btn btn-danger">Deletar</a>
-                <a href="" class="btn btn-primary">Editar</a>
+                <a href="update.php/?id='.$produto->id.'" class="btn btn-primary">Editar</a>
                 <a href="" class="btn btn-success">Detalhes</a>
                 </td>
                 </tr>
